@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 4300,
+      "quantity": 600,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "price": 500,
+      "quantity": 700,
+      "selected": false,
+      "available": false
+    },
+    {
+      "id": 3,
+      "name": "Printer New",
+      "price": 500,
+      "quantity": "70",
+      "selected": true,
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Test",
+      "price": "34",
+      "quantity": "3",
+      "selected": true,
+      "available": true
+    },
+    {
+      "name": "test test",
+      "price": 0,
+      "quantity": 0,
+      "selected": true,
+      "available": true,
+      "id": 5
+    }
+  ]
+}
