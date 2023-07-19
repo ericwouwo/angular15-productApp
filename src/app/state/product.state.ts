@@ -15,10 +15,12 @@ export enum ProductActionsTypes{
     GET_SELECTED_PRODUCTS="[Product] Get Selected products",
     GET_AVAILABLE_PRODUCTS="[Product] Get Available products",
     SEARCH_PRODUCTS="[Product] Search products",
-    NEW_PRODUCT="[Product] New products",
-    SELECT_PRODUCT="[Product] Select products",
+    NEW_PRODUCT="[Product] New product",
+    SELECT_PRODUCT="[Product] Select product",
     EDIT_PRODUCT="[Product] Edit products",
-    DELETE_PRODUCT="[Product] Delete products",
+    DELETE_PRODUCT="[Product] Delete product",
+    PRODUCT_ADDED="[Product] Add products",
+    PRODUCT_UPDATED="[Product] Update product",
 
 }
 

@@ -11,9 +11,11 @@ import { ActionEvent, AppDataState, DataStateEnum, ProductActionsTypes } from 's
 export class ProductsListComponent {
   
   @Input() productsInput$:Observable<AppDataState<Product[]>> | null=null;
-  @Output() producEventEmitter: EventEmitter<ActionEvent> =  new EventEmitter();
+  // @Output() producEventEmitter: EventEmitter<ActionEvent> =  new EventEmitter();
   readonly DataStateEnum = DataStateEnum;
 
+   /*
+   
   onSelect(product: Product): void{
     this.producEventEmitter.emit(
       {type:ProductActionsTypes.SELECT_PRODUCT,payload:product}
@@ -33,9 +35,12 @@ export class ProductsListComponent {
       );
   }
 
+ 
   onActionEvent($event: ActionEvent){
     this.producEventEmitter.emit($event);
   }
+
+  */
 
 
 }
